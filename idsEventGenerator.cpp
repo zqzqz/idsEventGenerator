@@ -1434,7 +1434,7 @@ int main (int argc, char* argv[]) {
         		//ignore it
         		break;
         	default:
-        		printf("unrecognized argument: %c \n",optarg);
+        		printf("unrecognized argument: %s \n",optarg);
         		usage(argv[0]);
         		exit(1);
         	}
